@@ -1,0 +1,77 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+header {
+  color: white;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20% ;
+  grid-template-rows: 33% 33% 33%;
+  text-align: center;
+  padding: 12px;
+}
+
+.mainbuttons {
+  border: solid white 2px;
+  width: 100px;
+  height: 33px;
+  background-color: #46C487;
+  color: white
+}
+
+name {
+  text-align: left;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 1;
+  background-color: #46C487;
+}
+
+profile {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  background-color: #FFB200;
+}
+
+experience {
+  grid-row: 2;
+  grid-column: 1;
+  background-color: #009FB7;
+}
+
+education {
+  background-color: #FE4A49;
+  grid-row: 2;
+  grid-column: 2;
+}
+
+blog {
+  background-color: #46C487;
+  grid-row: 2;
+  grid-column: 3;
+}
+
+contact {
+  grid-column: 2;
+  grid-row: 3;
+  background-color: #009FB7;
+}
+
+portfolio {
+  grid-row: 3;
+  grid-column: 3;
+  background-color: #FF7700;
+}
+
+social {
+  grid-column: 1;
+  grid-row: 3;
+  background-color: #FF7700;
+}
+
+bradhead {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3
+}
